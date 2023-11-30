@@ -6,6 +6,8 @@
 
 ### Requirements
 
+PHP 8.1.10
+
 For system requirements you [Check Laravel Requirement](https://laravel.com/docs/10.x/deployment#server-requirements)
 
 ### Clone the repository from github.
@@ -32,11 +34,3 @@ Rename or copy `.env.example` file to `.env` 1.`php artisan key:generate` to gen
 ### Database
 
 1. Migrate database table `php artisan migrate:fresh --seed`
-
-### Install Node Dependencies
-
-1. `npm install` to install node dependencies
-
-### Run Server
-
-1. `php artisan serve` or Laravel Homestead
